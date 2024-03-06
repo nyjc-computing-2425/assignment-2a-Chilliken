@@ -1,5 +1,8 @@
 num = input('Enter a number (decimal or integer): ')
 # type your code here
+number = num.replace(".", "")
+number = number.lstrip('0').lstrip('0')
+sf = len(number)
 
 
 
